@@ -1,0 +1,39 @@
+/*para arrancar el servidor 
+escribe: npm run dev
+*/
+
+/*
+enlace para abrir desde heroku: https://loginheroku.herokuapp.com/
+
+nota: si quieres ejecutar un programa subido a heroku recuerda
+
+que tienes que agregar el "start":"node src/index.js" <- ruta del ejecutor del puerto
+
+se utilizo como backend en la nube mongo atlas
+
+recuerda que tienes que subtituir el enlace del local por el enlace dado en atlas
+
+
+para abrir desde la consola la aplicacion ejecuta heroku open
+*/
+
+/*DEPENDENCIAS NECESARIAS
+PARA LA CRACION DE UN LOGIN COMPLETO DE VALIDACION CON RENTRINCIONES 
+*/
+
+npm install 
+ express: SIRVE PARA CONECTAR LA BASE DE DATOS CON EN FRONT-END
+ 
+ mongoose : SIRVE PARA ADMINISTRAR LAS BASE DE DATOS 
+ 
+ ejs-mate: SIRVE PARA GENERAR PLANTILLAS EN ANGULAR Y VARIAS COSAS MAS 
+
+ connect-flash:
+
+ morgan: PARA VER LAS PETICIONES HTTP
+
+  passport passport-local 
+
+  bcrypt-nodejs: SIRVE PARA CIFRAR LA CONTRASEÑA 
+
+  express-session
